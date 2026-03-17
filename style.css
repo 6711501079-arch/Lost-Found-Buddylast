@@ -1,0 +1,74 @@
+* {
+  font-family: 'Prompt', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f0e17;
+  color: white;
+}
+
+/* Layout */
+.app-shell {
+  max-width: 480px;
+  margin: auto;
+}
+
+/* Navbar */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: #1a1932;
+}
+
+/* Buttons */
+.action-card {
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.action-lost {
+  background: red;
+}
+
+.action-found {
+  background: green;
+}
+
+/* Chips */
+.chip {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #555;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.chip.active {
+  background: purple;
+}
+
+/* Card */
+.item-card {
+  background: #1a1932;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+/* Bottom nav */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-around;
+  background: #1a1932;
+  padding: 10px;
+}
